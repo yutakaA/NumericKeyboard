@@ -179,6 +179,7 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
   @IBOutlet fileprivate var bLeft3: NKKeyboardButton!
   @IBOutlet fileprivate var bLeft4: NKKeyboardButton!
 
+  @IBOutlet fileprivate var bHide: NKKeyboardButton!
 
   // MARK: - Static methods -
 
@@ -198,7 +199,8 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
    */
     @discardableResult public static func with(_ textView: UITextInput,
                           type: NKKeyboardType = .decimalPad,
-                          returnKeyType: NKKeyboardReturnKeyType = .default) -> NKInputView?
+                          returnKeyType: NKKeyboardReturnKeyType = .default,
+                          hide: Bool = false) -> NKInputView?
   {
     guard UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad else {
       // This is not an iPad, do nothing
@@ -213,7 +215,7 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
     let nib = UINib(nibName: nibName, bundle: bundle)
     let instance = nib.instantiate(withOwner: self, options: nil).first as! NKInputView
     
-    instance.setup(textView, type: type, returnKeyType: returnKeyType)
+    instance.setup(textView, type: type, returnKeyType: returnKeyType, hide: hide)
     
     return instance
   }
@@ -282,7 +284,7 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
   // MARK: - Private methods -
 
   // Initialize the view
-  fileprivate func setup(_ textView: UITextInput, type: NKKeyboardType, returnKeyType: NKKeyboardReturnKeyType = .default)
+  fileprivate func setup(_ textView: UITextInput, type: NKKeyboardType, returnKeyType: NKKeyboardReturnKeyType = .default, hide: Bool = false)
   {
     self.textView = textView
     
@@ -310,6 +312,8 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
     }
     
     bDot.setTitle((Locale.current as NSLocale).object(forKey: NSLocale.Key.decimalSeparator) as? String, for: UIControl.State.normal)
+    
+    bHide.isHidden = hide
   }
   
   // Remove the Undo/Redo toolbar

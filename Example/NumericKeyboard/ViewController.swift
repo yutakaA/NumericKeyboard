@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITextFieldDelegate
   {
     super.viewDidLoad()
     
-    NKInputView.with(textFieldNumberPad, type: NKInputView.NKKeyboardType.numberPad, returnKeyType: NKInputView.NKKeyboardReturnKeyType.next)
+    NKInputView.with(textFieldNumberPad, type: NKInputView.NKKeyboardType.numberPad, returnKeyType: NKInputView.NKKeyboardReturnKeyType.next, hide: true)
 
     NKInputView.with(textFieldDecimalPad, type: NKInputView.NKKeyboardType.decimalPad, returnKeyType: NKInputView.NKKeyboardReturnKeyType.next)
     
