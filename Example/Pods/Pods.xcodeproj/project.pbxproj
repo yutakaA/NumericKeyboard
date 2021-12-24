@@ -7,193 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		059D7F8985D6F6DA1733D844004A0FCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F37C1698A1E6746025BBB4B3AC9C6D11 /* Localizable.strings */; };
-		079D9AF83BF7825E15BE845D92078045 /* NKInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB332F4FD135FE33DEA3EDA3BDC6FD0 /* NKInputView.swift */; };
-		17507F02A00A750D5D1C372D604B424E /* NumericKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ACA8FC2FB64A485D602CE79FC43D13C /* NumericKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C2DCE11DB4869BF899AAF6D7F274C01 /* NumericKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE35EFA6496329D1054E0311A4334F4 /* NumericKeyboard.xib */; };
-		557957638D645F49C93441E946466909 /* Pods-NumericKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9B4E9F29F9EE0455C7348305DADA6D /* Pods-NumericKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61CB57AD3D72A4D6ECC0E78466911CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		883E72EF3EEBB058F3308D45A5313266 /* Pods-NumericKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3432521DA7E50DBCCD3A21940457FFD9 /* Pods-NumericKeyboard_Example-dummy.m */; };
-		A7ACE4D5654B859B064B6201EC3C9632 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AB2E361758FB7A1FDD65442900A00BA5 /* NumericKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45309284BC438C2E95F8244A161AF4F8 /* NumericKeyboard-dummy.m */; };
-		B1F9557A26C1BA73896DD3ECD4B30977 /* NumericKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C79FC89DA90036D63D8996ACCC0F9A2 /* NumericKeyboard.bundle */; };
-		D7D3BF98D7360D373AA91041E5B85D45 /* NKKeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E29FBE6BCD0B929EBB55DA761AF7AC /* NKKeyboardButton.swift */; };
-		FBC4516A5F4D2A4740B634C3460FAD0E /* NumericKeyboard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2EC521409FD0B9658409F82EB6AB12D /* NumericKeyboard.xcassets */; };
+		16A63CAD381551606D9FF40052082A66 /* NumericKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2886EF300CB4763397E5DE998F6084A /* NumericKeyboard-dummy.m */; };
+		4DC3ED00211C36480C89CD19049282C3 /* NumericKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C79FC89DA90036D63D8996ACCC0F9A2 /* NumericKeyboard.bundle */; };
+		61B393F9748927F7196616AE4A804C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		73B6D01EC9765DB1ADD689E322B05C09 /* NumericKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D8AD4834AC909495D621262155C6E5 /* NumericKeyboard.xib */; };
+		973FE0773923C81A43B9EEB566243301 /* NumericKeyboard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA47059943E6EE243C0E952F9C01E73 /* NumericKeyboard.xcassets */; };
+		9D987684970AFBC8184F9F856BF6EC76 /* Pods-NumericKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9B4E9F29F9EE0455C7348305DADA6D /* Pods-NumericKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FBC0512DF50C58611C217CD8F5666CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E815674CFBEE4479414F155268301C7D /* Localizable.strings */; };
+		AC4F1DC5D049BCF964E98E0923BB3C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BD855CCA0D1866686CDB4C401BAD1886 /* NKKeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88A8100D898049F9BE61C37055614B /* NKKeyboardButton.swift */; };
+		C9D9EFA1108375B398FF3BEAAF669FA9 /* NumericKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 148DAEF698F278849EC383BBAC4F4CBD /* NumericKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EE78BF0D1AD3E6A51E7F7D53F2B1D5 /* Pods-NumericKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3432521DA7E50DBCCD3A21940457FFD9 /* Pods-NumericKeyboard_Example-dummy.m */; };
+		E9ED7D370E368EA8EBF45505E5169084 /* NKInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30359D9909764859C079F705C3DAE099 /* NKInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2ECD40A64881459A06E37B0CEBF1F200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61F70B1591F1648537E4922D9E96A946;
-			remoteInfo = "NumericKeyboard-NumericKeyboard";
-		};
-		8A0BFB67A737BA18F5AD49817E6EA118 /* PBXContainerItemProxy */ = {
+		11EE768F70F32224B6E09DE8016B430B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FEEAB3F23D0CF5AD33A0B457D2EBA0EB;
 			remoteInfo = NumericKeyboard;
 		};
+		D26257742546256525C295CE22226847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F70B1591F1648537E4922D9E96A946;
+			remoteInfo = "NumericKeyboard-NumericKeyboard";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F71021710A88409BE569643761636D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		00851323F9C1BD18C0E73570F917525B /* ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist"; sourceTree = "<group>"; };
+		06D9F42435A3AE90723FE6BCC4974729 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0C79FC89DA90036D63D8996ACCC0F9A2 /* NumericKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumericKeyboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDED0FFBCA1071EA9D106ECD1BBCE84 /* Pods-NumericKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumericKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		11E29FBE6BCD0B929EBB55DA761AF7AC /* NKKeyboardButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKKeyboardButton.swift; path = NumericKeyboard/Classes/NKKeyboardButton.swift; sourceTree = "<group>"; };
-		16F7FCDCB41528F64353ACB976B2A966 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		25FF8F43CC624A7302F33A9ABFB82671 /* NumericKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NumericKeyboard.modulemap; sourceTree = "<group>"; };
-		2ACA8FC2FB64A485D602CE79FC43D13C /* NumericKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumericKeyboard-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		148DAEF698F278849EC383BBAC4F4CBD /* NumericKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumericKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		1F02B8CF3F58CFA456F06041C1AC4CBB /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		283A11ABB3E9EE3888B3F8207BAF28CC /* NumericKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NumericKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		290FD0E67FF14A224F4CFE42BAF6ECE1 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		30359D9909764859C079F705C3DAE099 /* NKInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKInputView.swift; path = NumericKeyboard/Classes/NKInputView.swift; sourceTree = "<group>"; };
 		3432521DA7E50DBCCD3A21940457FFD9 /* Pods-NumericKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NumericKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
 		35E5C7CCB23D6DC08CEC88FFFD8C97F9 /* Pods-NumericKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NumericKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3B3E5484B87C488CEEDAF4F46F8DEE80 /* Pods-NumericKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumericKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
-		45309284BC438C2E95F8244A161AF4F8 /* NumericKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NumericKeyboard-dummy.m"; sourceTree = "<group>"; };
-		45505FE2E7540D30C6398C8F83A3B683 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
-		4BDD839B5BEBF3A8117F69E1187C89B9 /* ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist"; sourceTree = "<group>"; };
-		53BAECBEF6FB32E09AD213A4649330F0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		5625FD024D9C005D5088FEB81DD2A49E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		564B824F8B5E665A3416563E172AEC15 /* NumericKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NumericKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		431D95CD6851ED36C06D0612EAC725A5 /* NumericKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NumericKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		4B785536F8CB1672D12286D92FB8D371 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5063AB8E469A9BD9EB94AE26A62D3790 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5C535712164AD16091CE8B7B00EC810D /* NumericKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NumericKeyboard.debug.xcconfig; sourceTree = "<group>"; };
 		5C9B4E9F29F9EE0455C7348305DADA6D /* Pods-NumericKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NumericKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
-		754DFF1782CFDC83457F1BBED98B64C0 /* NumericKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NumericKeyboard-Info.plist"; sourceTree = "<group>"; };
-		7845E2E0B60342DE92F6C4F462132BA9 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84DBD45F97CABB1C81B3A2C8597A9329 /* NumericKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NumericKeyboard-Info.plist"; sourceTree = "<group>"; };
+		882B886B030EC739EC942D36885AC636 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8866A7806C6580EE92C16CC217D4BA1B /* Pods-NumericKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumericKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8872AA105579A6B420E973037E0DC6D7 /* Pods-NumericKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NumericKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8AE35EFA6496329D1054E0311A4334F4 /* NumericKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = NumericKeyboard.xib; sourceTree = "<group>"; };
+		8D88A8100D898049F9BE61C37055614B /* NKKeyboardButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKKeyboardButton.swift; path = NumericKeyboard/Classes/NKKeyboardButton.swift; sourceTree = "<group>"; };
+		8DCC88C91CB0CBB476121AD32E00D9B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9628F645A122D85044734E6E86EC093A /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9721979499AED2DDE4897C577CF0354E /* NumericKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NumericKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A07151311BE892B49C824511370FFFA7 /* NumericKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NumericKeyboard.xcconfig; sourceTree = "<group>"; };
-		B22659D54921E8F12BC84A409AE7DC12 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B685FB39B90633B5EE89708A523E9BED /* NumericKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumericKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		A2886EF300CB4763397E5DE998F6084A /* NumericKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NumericKeyboard-dummy.m"; sourceTree = "<group>"; };
+		A2D8AD4834AC909495D621262155C6E5 /* NumericKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = NumericKeyboard.xib; sourceTree = "<group>"; };
+		A4A071E1C3997829118253C639C02AFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B4810B9494E3F006B09E8CFD896C0CC0 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B824243D451BE25674AA4941DBBCD596 /* Pods-NumericKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NumericKeyboard_Example.modulemap"; sourceTree = "<group>"; };
-		C2B2BAD0B6C3CC2B07920B2B97A8E124 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C2D0C10B88DC94A752F081DC23681764 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CDB332F4FD135FE33DEA3EDA3BDC6FD0 /* NKInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKInputView.swift; path = NumericKeyboard/Classes/NKInputView.swift; sourceTree = "<group>"; };
+		C000B73B94AF416BBE8337AA7A339E68 /* NumericKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumericKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		C8E2BE649BC10972FCDD06AC3FD53F05 /* NumericKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NumericKeyboard.modulemap; sourceTree = "<group>"; };
 		D7CEED855DC9A01D1C6095916472D72A /* Pods_NumericKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NumericKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2EC521409FD0B9658409F82EB6AB12D /* NumericKeyboard.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = NumericKeyboard.xcassets; sourceTree = "<group>"; };
+		EBA47059943E6EE243C0E952F9C01E73 /* NumericKeyboard.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = NumericKeyboard.xcassets; sourceTree = "<group>"; };
 		ED79EE8C6A684AF01DD04D9F0096BBBD /* Pods-NumericKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NumericKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FBB11B7049C9BB56CAA055CB0E4685DA /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		726F2E20D244845B1FD52C8D32D0599B /* Frameworks */ = {
+		5D3770CC0F37DAC5DC3B45BA7310B81F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CB57AD3D72A4D6ECC0E78466911CD3 /* Foundation.framework in Frameworks */,
+				61B393F9748927F7196616AE4A804C87 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		747A2839EDE21116E071026C773D0552 /* Frameworks */ = {
+		5EB9D7FAAC2F9D9C4AE690E37966E19C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4F1DC5D049BCF964E98E0923BB3C86 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3A42495F001ADB7CA1A5B574484FD47 /* Frameworks */ = {
+		9432B5E7A0F1A83E5EAFF1FDACFECFC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7ACE4D5654B859B064B6201EC3C9632 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1143B8288E93EE9847CE8890293322B0 /* Development Pods */ = {
+		0BE05AAC9298E9BD675A57F3985F38E5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				14740CE466E71929C775FD9F21DCA6A2 /* NumericKeyboard */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		14740CE466E71929C775FD9F21DCA6A2 /* NumericKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				CDB332F4FD135FE33DEA3EDA3BDC6FD0 /* NKInputView.swift */,
-				11E29FBE6BCD0B929EBB55DA761AF7AC /* NKKeyboardButton.swift */,
-				5245B079266561D86EFC81BF0D8B6331 /* Pod */,
-				C631C65F4C70523A3AEF73C3B432A9B3 /* Resources */,
-				8F3C5CB9A4C978DE0965949AE8962E78 /* Support Files */,
-			);
-			name = NumericKeyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5245B079266561D86EFC81BF0D8B6331 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C2B2BAD0B6C3CC2B07920B2B97A8E124 /* LICENSE */,
-				564B824F8B5E665A3416563E172AEC15 /* NumericKeyboard.podspec */,
-				16F7FCDCB41528F64353ACB976B2A966 /* README.md */,
+				A4A071E1C3997829118253C639C02AFA /* LICENSE */,
+				283A11ABB3E9EE3888B3F8207BAF28CC /* NumericKeyboard.podspec */,
+				8DCC88C91CB0CBB476121AD32E00D9B0 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		6A588C2CDB00E2AA06B8493448AD6ED5 /* Resources */ = {
+		24CFB4AE103CAE5C3503E7A84FF5ED28 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F37C1698A1E6746025BBB4B3AC9C6D11 /* Localizable.strings */,
-				8AE35EFA6496329D1054E0311A4334F4 /* NumericKeyboard.xib */,
+				E815674CFBEE4479414F155268301C7D /* Localizable.strings */,
+				A2D8AD4834AC909495D621262155C6E5 /* NumericKeyboard.xib */,
 			);
 			name = Resources;
 			path = NumericKeyboard/Resources;
 			sourceTree = "<group>";
 		};
-		89F897B40BBD9D4E18023A2BBCD63886 /* Products */ = {
+		52A02A2DB4D66FCBCB478E7CBB92F8FE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0C79FC89DA90036D63D8996ACCC0F9A2 /* NumericKeyboard.bundle */,
-				9721979499AED2DDE4897C577CF0354E /* NumericKeyboard.framework */,
-				D7CEED855DC9A01D1C6095916472D72A /* Pods_NumericKeyboard_Example.framework */,
+				EBA47059943E6EE243C0E952F9C01E73 /* NumericKeyboard.xcassets */,
 			);
-			name = Products;
+			name = Assets;
+			path = NumericKeyboard/Assets;
 			sourceTree = "<group>";
 		};
-		8F3C5CB9A4C978DE0965949AE8962E78 /* Support Files */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				25FF8F43CC624A7302F33A9ABFB82671 /* NumericKeyboard.modulemap */,
-				A07151311BE892B49C824511370FFFA7 /* NumericKeyboard.xcconfig */,
-				45309284BC438C2E95F8244A161AF4F8 /* NumericKeyboard-dummy.m */,
-				754DFF1782CFDC83457F1BBED98B64C0 /* NumericKeyboard-Info.plist */,
-				B685FB39B90633B5EE89708A523E9BED /* NumericKeyboard-prefix.pch */,
-				2ACA8FC2FB64A485D602CE79FC43D13C /* NumericKeyboard-umbrella.h */,
-				4BDD839B5BEBF3A8117F69E1187C89B9 /* ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NumericKeyboard";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C631C65F4C70523A3AEF73C3B432A9B3 /* Resources */ = {
+		81F69A8272030B5DA64A8BDD86A6A6B5 /* NumericKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				F83024E6AC27A0CE70F2B736D941CF08 /* Assets */,
-				6A588C2CDB00E2AA06B8493448AD6ED5 /* Resources */,
+				30359D9909764859C079F705C3DAE099 /* NKInputView.swift */,
+				8D88A8100D898049F9BE61C37055614B /* NKKeyboardButton.swift */,
+				52A02A2DB4D66FCBCB478E7CBB92F8FE /* Assets */,
+				0BE05AAC9298E9BD675A57F3985F38E5 /* Pod */,
+				24CFB4AE103CAE5C3503E7A84FF5ED28 /* Resources */,
+				ED5C044524757AA88A5261232F573BEB /* Support Files */,
 			);
-			name = Resources;
+			name = NumericKeyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1143B8288E93EE9847CE8890293322B0 /* Development Pods */,
+				DE656F1CCE89681BC43A12272072A728 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				89F897B40BBD9D4E18023A2BBCD63886 /* Products */,
+				F2F5457D24D561EE7DCF90B1E7082D53 /* Products */,
 				FAC905A03D66A3158700308B2CD5E3C8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -201,7 +170,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,13 +192,38 @@
 			path = "Target Support Files/Pods-NumericKeyboard_Example";
 			sourceTree = "<group>";
 		};
-		F83024E6AC27A0CE70F2B736D941CF08 /* Assets */ = {
+		DE656F1CCE89681BC43A12272072A728 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E2EC521409FD0B9658409F82EB6AB12D /* NumericKeyboard.xcassets */,
+				81F69A8272030B5DA64A8BDD86A6A6B5 /* NumericKeyboard */,
 			);
-			name = Assets;
-			path = NumericKeyboard/Assets;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ED5C044524757AA88A5261232F573BEB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8E2BE649BC10972FCDD06AC3FD53F05 /* NumericKeyboard.modulemap */,
+				A2886EF300CB4763397E5DE998F6084A /* NumericKeyboard-dummy.m */,
+				84DBD45F97CABB1C81B3A2C8597A9329 /* NumericKeyboard-Info.plist */,
+				C000B73B94AF416BBE8337AA7A339E68 /* NumericKeyboard-prefix.pch */,
+				148DAEF698F278849EC383BBAC4F4CBD /* NumericKeyboard-umbrella.h */,
+				5C535712164AD16091CE8B7B00EC810D /* NumericKeyboard.debug.xcconfig */,
+				431D95CD6851ED36C06D0612EAC725A5 /* NumericKeyboard.release.xcconfig */,
+				00851323F9C1BD18C0E73570F917525B /* ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NumericKeyboard";
+			sourceTree = "<group>";
+		};
+		F2F5457D24D561EE7DCF90B1E7082D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9721979499AED2DDE4897C577CF0354E /* NumericKeyboard.framework */,
+				0C79FC89DA90036D63D8996ACCC0F9A2 /* NumericKeyboard.bundle */,
+				D7CEED855DC9A01D1C6095916472D72A /* Pods_NumericKeyboard_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		FAC905A03D66A3158700308B2CD5E3C8 /* Targets Support Files */ = {
@@ -243,19 +237,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		39D4ED273061426BFCB6951949327652 /* Headers */ = {
+		5352AB12C252CFEBE6A3CD98B751C086 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				557957638D645F49C93441E946466909 /* Pods-NumericKeyboard_Example-umbrella.h in Headers */,
+				C9D9EFA1108375B398FF3BEAAF669FA9 /* NumericKeyboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE85A9CCF7F24287CE4B9AC4F5C9E11 /* Headers */ = {
+		FA5DDFDE52F1707D70E205215EAD37F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17507F02A00A750D5D1C372D604B424E /* NumericKeyboard-umbrella.h in Headers */,
+				9D987684970AFBC8184F9F856BF6EC76 /* Pods-NumericKeyboard_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,53 +258,53 @@
 /* Begin PBXNativeTarget section */
 		4FA2A97402F9B26C717BA6633EDF5DA0 /* Pods-NumericKeyboard_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8CFE2D612A5418A03DC93B7594BFD8E4 /* Build configuration list for PBXNativeTarget "Pods-NumericKeyboard_Example" */;
+			buildConfigurationList = 5D1DFE3926D617E77DC670A9E79D167D /* Build configuration list for PBXNativeTarget "Pods-NumericKeyboard_Example" */;
 			buildPhases = (
-				39D4ED273061426BFCB6951949327652 /* Headers */,
-				F3FE50A4F23AD67BFA74758F82E401A3 /* Sources */,
-				D3A42495F001ADB7CA1A5B574484FD47 /* Frameworks */,
-				E34F632A2BF94861C9C807F0A790D740 /* Resources */,
+				FA5DDFDE52F1707D70E205215EAD37F3 /* Headers */,
+				EABCE412EE58D95B1B9FA4C65A61262A /* Sources */,
+				5D3770CC0F37DAC5DC3B45BA7310B81F /* Frameworks */,
+				5939C65AB6DB100210330A4214C518F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7F4F259C3B643312D5E5E8CD6BAB51B0 /* PBXTargetDependency */,
+				3134F3D023C51F93567DA3DF7DC6B40D /* PBXTargetDependency */,
 			);
 			name = "Pods-NumericKeyboard_Example";
-			productName = "Pods-NumericKeyboard_Example";
+			productName = Pods_NumericKeyboard_Example;
 			productReference = D7CEED855DC9A01D1C6095916472D72A /* Pods_NumericKeyboard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		61F70B1591F1648537E4922D9E96A946 /* NumericKeyboard-NumericKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E1C49EC0AF39F805497AB8CEE31E85 /* Build configuration list for PBXNativeTarget "NumericKeyboard-NumericKeyboard" */;
+			buildConfigurationList = 203D28AAA3FFED40CE61FAD1492394A1 /* Build configuration list for PBXNativeTarget "NumericKeyboard-NumericKeyboard" */;
 			buildPhases = (
-				E3CE7E1F33DF77B54FAE983E92710B81 /* Sources */,
-				747A2839EDE21116E071026C773D0552 /* Frameworks */,
-				8F21C6F3A783053CE3DF24586DB583A4 /* Resources */,
+				31B5B952DFD63D17746198A53FD3AB6F /* Sources */,
+				9432B5E7A0F1A83E5EAFF1FDACFECFC3 /* Frameworks */,
+				9DD97F7EDB1E16718B02D1B5D6837CBF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "NumericKeyboard-NumericKeyboard";
-			productName = "NumericKeyboard-NumericKeyboard";
+			productName = NumericKeyboard;
 			productReference = 0C79FC89DA90036D63D8996ACCC0F9A2 /* NumericKeyboard.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		FEEAB3F23D0CF5AD33A0B457D2EBA0EB /* NumericKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4156876EF56080EBE46257535285F111 /* Build configuration list for PBXNativeTarget "NumericKeyboard" */;
+			buildConfigurationList = A6502F339BB2E2AC9499572E6250360C /* Build configuration list for PBXNativeTarget "NumericKeyboard" */;
 			buildPhases = (
-				DBE85A9CCF7F24287CE4B9AC4F5C9E11 /* Headers */,
-				2D13018B28D6CF051C49F87DDEE3BB1D /* Sources */,
-				726F2E20D244845B1FD52C8D32D0599B /* Frameworks */,
-				F97C680419715932A68733A0360D45E3 /* Resources */,
+				5352AB12C252CFEBE6A3CD98B751C086 /* Headers */,
+				295872E8C617275B35B448D93ABBEA83 /* Sources */,
+				5EB9D7FAAC2F9D9C4AE690E37966E19C /* Frameworks */,
+				96A036ADFC7881BD4A2C235947804A58 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C96A8EDAA569EC747575F289A12C1CD1 /* PBXTargetDependency */,
+				F92437D670D6FD92BE9528523B55847B /* PBXTargetDependency */,
 			);
 			name = NumericKeyboard;
 			productName = NumericKeyboard;
@@ -323,16 +317,17 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1120;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1320;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				Base,
 				de,
+				en,
 				es,
 				fr,
 				he,
@@ -341,7 +336,7 @@
 				sv,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 89F897B40BBD9D4E18023A2BBCD63886 /* Products */;
+			productRefGroup = F2F5457D24D561EE7DCF90B1E7082D53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -353,88 +348,88 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8F21C6F3A783053CE3DF24586DB583A4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				059D7F8985D6F6DA1733D844004A0FCE /* Localizable.strings in Resources */,
-				FBC4516A5F4D2A4740B634C3460FAD0E /* NumericKeyboard.xcassets in Resources */,
-				2C2DCE11DB4869BF899AAF6D7F274C01 /* NumericKeyboard.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E34F632A2BF94861C9C807F0A790D740 /* Resources */ = {
+		5939C65AB6DB100210330A4214C518F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F97C680419715932A68733A0360D45E3 /* Resources */ = {
+		96A036ADFC7881BD4A2C235947804A58 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F9557A26C1BA73896DD3ECD4B30977 /* NumericKeyboard.bundle in Resources */,
+				4DC3ED00211C36480C89CD19049282C3 /* NumericKeyboard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DD97F7EDB1E16718B02D1B5D6837CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBC0512DF50C58611C217CD8F5666CF /* Localizable.strings in Resources */,
+				973FE0773923C81A43B9EEB566243301 /* NumericKeyboard.xcassets in Resources */,
+				73B6D01EC9765DB1ADD689E322B05C09 /* NumericKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D13018B28D6CF051C49F87DDEE3BB1D /* Sources */ = {
+		295872E8C617275B35B448D93ABBEA83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				079D9AF83BF7825E15BE845D92078045 /* NKInputView.swift in Sources */,
-				D7D3BF98D7360D373AA91041E5B85D45 /* NKKeyboardButton.swift in Sources */,
-				AB2E361758FB7A1FDD65442900A00BA5 /* NumericKeyboard-dummy.m in Sources */,
+				E9ED7D370E368EA8EBF45505E5169084 /* NKInputView.swift in Sources */,
+				BD855CCA0D1866686CDB4C401BAD1886 /* NKKeyboardButton.swift in Sources */,
+				16A63CAD381551606D9FF40052082A66 /* NumericKeyboard-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3CE7E1F33DF77B54FAE983E92710B81 /* Sources */ = {
+		31B5B952DFD63D17746198A53FD3AB6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3FE50A4F23AD67BFA74758F82E401A3 /* Sources */ = {
+		EABCE412EE58D95B1B9FA4C65A61262A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883E72EF3EEBB058F3308D45A5313266 /* Pods-NumericKeyboard_Example-dummy.m in Sources */,
+				D5EE78BF0D1AD3E6A51E7F7D53F2B1D5 /* Pods-NumericKeyboard_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7F4F259C3B643312D5E5E8CD6BAB51B0 /* PBXTargetDependency */ = {
+		3134F3D023C51F93567DA3DF7DC6B40D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NumericKeyboard;
 			target = FEEAB3F23D0CF5AD33A0B457D2EBA0EB /* NumericKeyboard */;
-			targetProxy = 8A0BFB67A737BA18F5AD49817E6EA118 /* PBXContainerItemProxy */;
+			targetProxy = 11EE768F70F32224B6E09DE8016B430B /* PBXContainerItemProxy */;
 		};
-		C96A8EDAA569EC747575F289A12C1CD1 /* PBXTargetDependency */ = {
+		F92437D670D6FD92BE9528523B55847B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "NumericKeyboard-NumericKeyboard";
 			target = 61F70B1591F1648537E4922D9E96A946 /* NumericKeyboard-NumericKeyboard */;
-			targetProxy = 2ECD40A64881459A06E37B0CEBF1F200 /* PBXContainerItemProxy */;
+			targetProxy = D26257742546256525C295CE22226847 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F37C1698A1E6746025BBB4B3AC9C6D11 /* Localizable.strings */ = {
+		E815674CFBEE4479414F155268301C7D /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B22659D54921E8F12BC84A409AE7DC12 /* Localizable.strings */,
-				53BAECBEF6FB32E09AD213A4649330F0 /* Localizable.strings */,
-				05F71021710A88409BE569643761636D /* Localizable.strings */,
-				7845E2E0B60342DE92F6C4F462132BA9 /* Localizable.strings */,
-				FBB11B7049C9BB56CAA055CB0E4685DA /* Localizable.strings */,
-				5625FD024D9C005D5088FEB81DD2A49E /* Localizable.strings */,
-				45505FE2E7540D30C6398C8F83A3B683 /* Localizable.strings */,
-				C2D0C10B88DC94A752F081DC23681764 /* Localizable.strings */,
+				B4810B9494E3F006B09E8CFD896C0CC0 /* Localizable.strings */,
+				06D9F42435A3AE90723FE6BCC4974729 /* Localizable.strings */,
+				290FD0E67FF14A224F4CFE42BAF6ECE1 /* Localizable.strings */,
+				9628F645A122D85044734E6E86EC093A /* Localizable.strings */,
+				4B785536F8CB1672D12286D92FB8D371 /* Localizable.strings */,
+				1F02B8CF3F58CFA456F06041C1AC4CBB /* Localizable.strings */,
+				882B886B030EC739EC942D36885AC636 /* Localizable.strings */,
+				5063AB8E469A9BD9EB94AE26A62D3790 /* Localizable.strings */,
 			);
 			name = Localizable.strings;
 			path = .;
@@ -443,44 +438,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		00038D243E51EE820D75BB99458B78F4 /* Debug */ = {
+		009FB98D8427DF52983E84C63D39D5F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8866A7806C6580EE92C16CC217D4BA1B /* Pods-NumericKeyboard_Example.debug.xcconfig */;
+			baseConfigurationReference = 5C535712164AD16091CE8B7B00EC810D /* NumericKeyboard.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NumericKeyboard_Example/Pods-NumericKeyboard_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NumericKeyboard_Example/Pods-NumericKeyboard_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		526872BEE22E77738BDD613631633709 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A07151311BE892B49C824511370FFFA7 /* NumericKeyboard.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -492,9 +453,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NumericKeyboard/NumericKeyboard-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NumericKeyboard/NumericKeyboard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.5.0;
 				MODULEMAP_FILE = "Target Support Files/NumericKeyboard/NumericKeyboard.modulemap";
 				PRODUCT_MODULE_NAME = NumericKeyboard;
 				PRODUCT_NAME = NumericKeyboard;
@@ -503,13 +463,12 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -536,66 +495,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		7E1F3D358966F24610AD782F313B4C40 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -621,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -634,11 +534,58 @@
 			};
 			name = Debug;
 		};
-		855C77218EB8E08BE4C428C199E579DD /* Debug */ = {
+		307EEFCEA40E2BC53B27C5F29FE592B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A07151311BE892B49C824511370FFFA7 /* NumericKeyboard.xcconfig */;
+			baseConfigurationReference = 8866A7806C6580EE92C16CC217D4BA1B /* Pods-NumericKeyboard_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NumericKeyboard_Example/Pods-NumericKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NumericKeyboard_Example/Pods-NumericKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		506CC3C52390313249F96D672471DD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C535712164AD16091CE8B7B00EC810D /* NumericKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumericKeyboard";
+				IBSC_MODULE = NumericKeyboard;
+				INFOPLIST_FILE = "Target Support Files/NumericKeyboard/ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = NumericKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		52927B88372BF6D0506BDCABF8504494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431D95CD6851ED36C06D0612EAC725A5 /* NumericKeyboard.release.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -650,9 +597,8 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NumericKeyboard/NumericKeyboard-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NumericKeyboard/NumericKeyboard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 1.5.0;
 				MODULEMAP_FILE = "Target Support Files/NumericKeyboard/NumericKeyboard.modulemap";
 				PRODUCT_MODULE_NAME = NumericKeyboard;
 				PRODUCT_NAME = NumericKeyboard;
@@ -661,39 +607,20 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		A4B2BE9A439D78EAF8D17342988E42FB /* Debug */ = {
+		5E5D02DFD0DDFAAD75BFBF1A5B4381C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A07151311BE892B49C824511370FFFA7 /* NumericKeyboard.xcconfig */;
+			baseConfigurationReference = 431D95CD6851ED36C06D0612EAC725A5 /* NumericKeyboard.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumericKeyboard";
 				IBSC_MODULE = NumericKeyboard;
 				INFOPLIST_FILE = "Target Support Files/NumericKeyboard/ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MARKETING_VERSION = 1.5.0;
-				PRODUCT_NAME = NumericKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		E05A943E93A2FA7F52A16D623AEE2BFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A07151311BE892B49C824511370FFFA7 /* NumericKeyboard.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NumericKeyboard";
-				IBSC_MODULE = NumericKeyboard;
-				INFOPLIST_FILE = "Target Support Files/NumericKeyboard/ResourceBundle-NumericKeyboard-NumericKeyboard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MARKETING_VERSION = 1.5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = NumericKeyboard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -702,12 +629,72 @@
 			};
 			name = Release;
 		};
-		F34D4ED2F41E45D81C2046A813890358 /* Release */ = {
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F433BDE9A2F434A91572A50F5D705607 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0DDED0FFBCA1071EA9D106ECD1BBCE84 /* Pods-NumericKeyboard_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -718,7 +705,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NumericKeyboard_Example/Pods-NumericKeyboard_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NumericKeyboard_Example/Pods-NumericKeyboard_Example.modulemap";
@@ -739,11 +726,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4156876EF56080EBE46257535285F111 /* Build configuration list for PBXNativeTarget "NumericKeyboard" */ = {
+		203D28AAA3FFED40CE61FAD1492394A1 /* Build configuration list for PBXNativeTarget "NumericKeyboard-NumericKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				855C77218EB8E08BE4C428C199E579DD /* Debug */,
-				526872BEE22E77738BDD613631633709 /* Release */,
+				506CC3C52390313249F96D672471DD89 /* Debug */,
+				5E5D02DFD0DDFAAD75BFBF1A5B4381C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,26 +738,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E1F3D358966F24610AD782F313B4C40 /* Debug */,
-				60A7F9B4A8E92A5B16CC2AA887D9FE07 /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8CFE2D612A5418A03DC93B7594BFD8E4 /* Build configuration list for PBXNativeTarget "Pods-NumericKeyboard_Example" */ = {
+		5D1DFE3926D617E77DC670A9E79D167D /* Build configuration list for PBXNativeTarget "Pods-NumericKeyboard_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00038D243E51EE820D75BB99458B78F4 /* Debug */,
-				F34D4ED2F41E45D81C2046A813890358 /* Release */,
+				307EEFCEA40E2BC53B27C5F29FE592B1 /* Debug */,
+				F433BDE9A2F434A91572A50F5D705607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E1C49EC0AF39F805497AB8CEE31E85 /* Build configuration list for PBXNativeTarget "NumericKeyboard-NumericKeyboard" */ = {
+		A6502F339BB2E2AC9499572E6250360C /* Build configuration list for PBXNativeTarget "NumericKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A4B2BE9A439D78EAF8D17342988E42FB /* Debug */,
-				E05A943E93A2FA7F52A16D623AEE2BFF /* Release */,
+				009FB98D8427DF52983E84C63D39D5F7 /* Debug */,
+				52927B88372BF6D0506BDCABF8504494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

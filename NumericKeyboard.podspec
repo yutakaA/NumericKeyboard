@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NumericKeyboard'
-  s.version          = '1.6.0'
+  s.version          = '1.7.0'
   s.summary          = 'NumericKeyboard is a input view for UITextField & UITextView that shows a numeric entry keyboard on iPad.'
 
   s.description      = <<-DESC
@@ -20,7 +20,7 @@ As the default keyboard on iPad still shows all keys even for numerical entry mo
   s.screenshots      = 'https://github.com/marcjordant/NumericKeyboard/blob/master/example.png?raw=true'
   s.social_media_url = 'https://twitter.com/marcjordant'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'NumericKeyboard/Classes/**/*'
   
