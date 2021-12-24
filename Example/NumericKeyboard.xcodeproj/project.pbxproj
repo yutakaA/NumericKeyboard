@@ -147,7 +147,6 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = UZXJHZJW3F;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -369,12 +368,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UZXJHZJW3F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NumericKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.7.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.playce.org.cocoapods.demo.NumericKeyboard-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NumericKeyboard-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -387,12 +386,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UZXJHZJW3F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NumericKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.7.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.playce.org.cocoapods.demo.NumericKeyboard-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NumericKeyboard-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
