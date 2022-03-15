@@ -15,6 +15,7 @@
 		9D987684970AFBC8184F9F856BF6EC76 /* Pods-NumericKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C9B4E9F29F9EE0455C7348305DADA6D /* Pods-NumericKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FBC0512DF50C58611C217CD8F5666CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E815674CFBEE4479414F155268301C7D /* Localizable.strings */; };
 		AC4F1DC5D049BCF964E98E0923BB3C86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B114DED127E0C50000C9C144 /* NumericKeyboard.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA47059943E6EE243C0E952F9C01E73 /* NumericKeyboard.xcassets */; };
 		BD855CCA0D1866686CDB4C401BAD1886 /* NKKeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D88A8100D898049F9BE61C37055614B /* NKKeyboardButton.swift */; };
 		C9D9EFA1108375B398FF3BEAAF669FA9 /* NumericKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 148DAEF698F278849EC383BBAC4F4CBD /* NumericKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5EE78BF0D1AD3E6A51E7F7D53F2B1D5 /* Pods-NumericKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3432521DA7E50DBCCD3A21940457FFD9 /* Pods-NumericKeyboard_Example-dummy.m */; };
@@ -45,7 +46,7 @@
 		0DDED0FFBCA1071EA9D106ECD1BBCE84 /* Pods-NumericKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NumericKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		148DAEF698F278849EC383BBAC4F4CBD /* NumericKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NumericKeyboard-umbrella.h"; sourceTree = "<group>"; };
 		1F02B8CF3F58CFA456F06041C1AC4CBB /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
-		283A11ABB3E9EE3888B3F8207BAF28CC /* NumericKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NumericKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		283A11ABB3E9EE3888B3F8207BAF28CC /* NumericKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NumericKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		290FD0E67FF14A224F4CFE42BAF6ECE1 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		30359D9909764859C079F705C3DAE099 /* NKInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NKInputView.swift; path = NumericKeyboard/Classes/NKInputView.swift; sourceTree = "<group>"; };
 		3432521DA7E50DBCCD3A21940457FFD9 /* Pods-NumericKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NumericKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
@@ -359,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B114DED127E0C50000C9C144 /* NumericKeyboard.xcassets in Resources */,
 				4DC3ED00211C36480C89CD19049282C3 /* NumericKeyboard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
