@@ -1,5 +1,5 @@
 PODS:
-  - NumericKeyboard (1.7.0)
+  - NumericKeyboard (1.9.0)
 
 DEPENDENCIES:
   - NumericKeyboard (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NumericKeyboard: 80e3ec1b76c68720a9d132f83189e2e1ad3b1984
+  NumericKeyboard: d81f9500702f1fc3c5719bdb681c0c85bc0d771e
 
 PODFILE CHECKSUM: 9dfa7a0a55335e2a278487c978a549864f44dbf7
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3
