@@ -371,7 +371,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NumericKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.11.0;
+				MARKETING_VERSION = 1.12.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NumericKeyboard-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,7 +389,7 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NumericKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.11.0;
+				MARKETING_VERSION = 1.12.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.NumericKeyboard-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
