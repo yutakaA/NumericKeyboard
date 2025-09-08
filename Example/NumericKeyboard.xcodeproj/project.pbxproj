@@ -29,7 +29,7 @@
 		A52FEDCFFEE084358E713506 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C36CE8B4740E69578D568D41 /* Pods-NumericKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumericKeyboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NumericKeyboard_Example/Pods-NumericKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C9EA019369F4570BB20D2727 /* Pods-NumericKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NumericKeyboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NumericKeyboard_Example/Pods-NumericKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D74663C8763CB44EB7644EE4 /* NumericKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NumericKeyboard.podspec; path = ../NumericKeyboard.podspec; sourceTree = "<group>"; };
+		D74663C8763CB44EB7644EE4 /* NumericKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NumericKeyboard.podspec; path = ../NumericKeyboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
