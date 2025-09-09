@@ -60,6 +60,8 @@ class NKKeyboardButton: UIButton
 
   override func prepareForInterfaceBuilder()
   {
-    self.backgroundColor = self.returnType.backgroundColor() ?? self.backgroundColorForStateNormal
+    DispatchQueue.main.async {
+      self.backgroundColor = self.returnType.backgroundColor() ?? self.backgroundColorForStateNormal
+    }
   }
 }
