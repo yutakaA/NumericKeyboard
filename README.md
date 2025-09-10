@@ -1,6 +1,7 @@
 # NumericKeyboard
 
-[![Version](https://img.shields.io/cocoapods/v/NumericKeyboard.svg?style=flat)](http://cocoapods.org/pods/NumericKeyboard)
+[!
+    [Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
 [![License](https://img.shields.io/cocoapods/l/NumericKeyboard.svg?style=flat)](http://cocoapods.org/pods/NumericKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/NumericKeyboard.svg?style=flat)](http://cocoapods.org/pods/NumericKeyboard)
 
@@ -30,7 +31,7 @@ The return key texts are available in
 
 
 #### New language
-If you want a new language to be supported, just [contact me](mailto:marcjordant@gmail.com?subject=NumericKeyboard) !
+If you want a new language to be supported, just [contact me](mailto:y-ataka@playce.jp?subject=NumericKeyboard) !
 
 #### Custom text
 You can also use the 
@@ -69,16 +70,11 @@ iOS 12+
 
 ## Installation
 
-NumericKeyboard is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "NumericKeyboard"
-```
+NumericKeyboard is available through [Swift Package Manager](https://docs.swift.org/swiftpm/documentation/packagemanagerdocs/). To
 
 ## Author
 
-Marc Jordant, marcjordant@gmail.com
+Yutaka Ataka, y-ataka@playce.jp
 
 ## License
 

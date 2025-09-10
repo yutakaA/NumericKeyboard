@@ -1,6 +1,0 @@
-use_frameworks!
-
-target 'NumericKeyboard_Example' do
-  pod 'NumericKeyboard', :path => '../'
-
-end
