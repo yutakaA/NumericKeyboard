@@ -1,0 +1,15 @@
+{
+  "originHash" : "b9855110c79ea6c9c4071d5162f4b1e1de6a81034f0207b810f21085fbda6ecd",
+  "pins" : [
+    {
+      "identity" : "numerickeyboard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yutakaA/NumericKeyboard.git",
+      "state" : {
+        "revision" : "92df7976adc82457bac571f0894c0c9a3fffdbab",
+        "version" : "1.12.0"
+      }
+    }
+  ],
+  "version" : 3
+}
