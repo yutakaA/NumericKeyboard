@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		B121042C2E7209670031293D /* NumericKeyboard in Frameworks */ = {isa = PBXBuildFile; productRef = B121042B2E7209670031293D /* NumericKeyboard */; };
+		B1B430772E720D240026F47D /* NumericKeyboard in Frameworks */ = {isa = PBXBuildFile; productRef = B1B430762E720D240026F47D /* NumericKeyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B121042C2E7209670031293D /* NumericKeyboard in Frameworks */,
+				B1B430772E720D240026F47D /* NumericKeyboard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +132,7 @@
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			packageReferences = (
-				B121042A2E7209670031293D /* XCRemoteSwiftPackageReference "NumericKeyboard" */,
+				B1B430752E720D240026F47D /* XCRemoteSwiftPackageReference "NumericKeyboard" */,
 			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
@@ -372,12 +374,25 @@
 				version = 1.12.0;
 			};
 		};
+		B1B430752E720D240026F47D /* XCRemoteSwiftPackageReference "NumericKeyboard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yutakaA/NumericKeyboard.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.12.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		B121042B2E7209670031293D /* NumericKeyboard */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B121042A2E7209670031293D /* XCRemoteSwiftPackageReference "NumericKeyboard" */;
+			productName = NumericKeyboard;
+		};
+		B1B430762E720D240026F47D /* NumericKeyboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1B430752E720D240026F47D /* XCRemoteSwiftPackageReference "NumericKeyboard" */;
 			productName = NumericKeyboard;
 		};
 /* End XCSwiftPackageProductDependency section */

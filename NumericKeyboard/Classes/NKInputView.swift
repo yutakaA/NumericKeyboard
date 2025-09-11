@@ -113,10 +113,6 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
       case .custom(let text, _):
         return text
       default:
-//        let podBundle = Bundle(for: NKInputView.self)
-//        let bundleURL = podBundle.url(forResource: "NumericKeyboard", withExtension: "bundle")
-//        let bundle = Bundle(url: bundleURL!)!
-        // return NSLocalizedString("NumericKeyboard.return-key.\(self)", bundle: bundle, comment: "")
           return NSLocalizedString("NumericKeyboard.return-key.\(self)", bundle: Bundle.module, comment: "")
       }
     }
@@ -209,10 +205,6 @@ open class NKInputView: UIView, UIInputViewAudioFeedback
     }
     
     // Load the view from xib
-//    let podBundle = Bundle(for: NKInputView.self)
-//    let bundleURL = podBundle.url(forResource: "NumericKeyboard", withExtension: "bundle")
-//    let bundle = Bundle(url: bundleURL!)!
-//    let nibName = "NumericKeyboard"
     let nib = UINib(nibName: "NumericKeyboard", bundle: Bundle.module)
     let instance = nib.instantiate(withOwner: self, options: nil).first as! NKInputView
     
